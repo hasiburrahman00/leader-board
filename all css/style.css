@@ -1,8 +1,80 @@
-/* *************************
-    Common style codes 
-************************** */
-* { 
-    margin: 0;
+/*----------------------
+ all fonts import codes 
+ -----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*==========================
+        common css 
+============================ */
+.container {
+    padding: 33px;
+}
+.section-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+    margin-bottom: 33px;
+}
+
+
+/* ---------------------
+header section css 
+--------------------- */
+
+
+
+/* ------------------------
+    Main section CSS   
+--------------------------- */
+.main-section {
+    background-color: #F3F1FF;
+    padding: 50px 0;
+}
+.player-blog-course {
+    background-color: tomato;
+    border-radius: 5px;
+    width: 870px;
+    margin: 0 auto;
+    
+}
+
+
+/* ------------ top player section ------------ */
+.top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 30px;
+}
+
+.player-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    height: 56p;
+    width: 56px;
+    margin-right: 18px;
+}
+
+/* --------------- Top Blogs section --------------- */
+.top-blog-section .container {
+    padding-top: 0;
 }
 
