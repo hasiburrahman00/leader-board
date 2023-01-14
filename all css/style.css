@@ -15,6 +15,7 @@
 .container {
     padding: 33px;
 }
+
 .section-title {
     font-weight: 500;
     font-size: 24px;
@@ -37,16 +38,17 @@ header section css
     background-color: #F3F1FF;
     padding: 50px 0;
 }
+
 .player-blog-course {
-    background-color: tomato;
+    background-color: #ffffff;
     border-radius: 5px;
     width: 870px;
     margin: 0 auto;
-    
+
 }
 
 
-/* ------------ top player section ------------ */
+/* --- top player section --- */
 .top-players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -73,8 +75,53 @@ header section css
     margin-right: 18px;
 }
 
-/* --------------- Top Blogs section --------------- */
+/* --- Top Blogs section --- */
+
 .top-blog-section .container {
     padding-top: 0;
 }
 
+.blog-img {
+    height: 117px;
+    width: 177px;
+    margin-right: 16px;
+
+}
+
+.blog-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.all-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-content .blog-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.blog-content .blog-author {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+/* --- course section css --- */
