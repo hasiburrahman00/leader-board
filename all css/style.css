@@ -9,6 +9,10 @@
 
 }
 
+body {
+    background-color: #F3F1FF;
+}
+
 /*==========================
         common css 
 ============================ */
@@ -35,7 +39,6 @@ header section css
     Main section CSS   
 --------------------------- */
 .main-section {
-    background-color: #F3F1FF;
     padding: 50px 0;
 }
 
@@ -119,9 +122,73 @@ header section css
     line-height: 24px;
     color: #9F9F9F;
 }
+
 .blog-author a {
     text-decoration: none;
     color: #562EFF;
 }
 
 /* --- course section css --- */
+.lates-courses {
+    background-color: #FFFFFF;
+    width: 870px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.all-course {
+    display: flex;
+    gap: 22px;
+}
+
+.single-course {
+    padding: 12px;
+}
+
+.single-course .course-img {
+    width: 100%;
+}
+
+.course-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1E1E1E;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.course-author-name {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ratting .filled {
+    color: #FFC014;
+}
+
+.ratting .not-filled {
+    color: #AEAEAE;
+}
+
+.duration {
+    background-color: #FFE4E8;
+    padding: 4px 7px;
+    border-radius: 75px 75px;
+}
+
+.duration {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
